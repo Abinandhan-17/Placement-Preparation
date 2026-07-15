@@ -1,0 +1,5 @@
+ALTER TABLE Employees
+ADD Email VARCHAR(100);
+
+ALTER TABLE Employees
+DROP COLUMN Email;
